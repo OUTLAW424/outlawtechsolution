@@ -2,10 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: linear-gradient(to bottom, blue, white); /* updated */
+    background: #f4f4f4;
 }
 header, footer {
-  background: #333;
+  background: linear-gradient(to bottom, blue, white); /* updated */
+    background: #333;
   color: white;
   text-align: center;
   padding: 1em 0;
@@ -19,7 +21,8 @@ nav a {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #25D366;
+  background: linear-gradient(to bottom, blue, white); /* updated */
+    background: #25D366;
   color: white;
   font-size: 24px;
   padding: 10px 15px;
@@ -27,7 +30,8 @@ nav a {
   text-decoration: none;
 }
 form {
-  background: white;
+  background: linear-gradient(to bottom, blue, white); /* updated */
+    background: white;
   padding: 20px;
   margin: 20px auto;
   width: 80%;
